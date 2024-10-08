@@ -153,9 +153,24 @@ let theme=createTheme({
                 }
             }
         },
+        MuiCollapse:{
+         styleOverrides:{
+            root:{
+                borderBottom:"1px solid rgba(255,255,255,0.5)",
+                '& :after':{
+                      borderBottom: "2px solid #1976d2;",
+                 left:"2px",
+                 width:"91%",
+             transition: "transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms",
+            
+                }
+            }
+         }
+        },
         MuiTable:{
             styleOverrides:{
                 root:{
+               
                 "& tr:nth-of-type(odd) >td":{
                     backgroundColor:"white",
 

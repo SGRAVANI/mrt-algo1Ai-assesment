@@ -2,11 +2,11 @@
 .css-wsew38{
   align-items: end !important;
 }
-/* .css-188wxy8-MuiFormControl-root-MuiTextField-root{
+.css-188wxy8-MuiFormControl-root-MuiTextField-root{
   min-width: 20px !important;
   max-width:"80%"
  
- } */
+ }
  .css-jfiwu8-MuiInputBase-root-MuiInput-root{
   min-width: 20px !important;
   width:80% !important;
@@ -19,3 +19,6 @@ opacity: 1 !important;
  width:150px;
  }
   
+.MuiTableContainer-root{
+  border-radius: 8px;
+}

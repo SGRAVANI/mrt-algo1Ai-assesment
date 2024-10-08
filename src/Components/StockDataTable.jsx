@@ -84,7 +84,7 @@ useEffect(() => {
        
         sx:{
          color:"rgba(255,255,255,0.5)",
-         borderBottom:"1px solid rgba(255,255,255,0.5) ",  
+         //borderBottom:"1px solid rgba(255,255,255,0.5) ",  
          '& .MuiInputBase-input': {
           fontSize: '1rem',            
           color: "white", 
@@ -276,6 +276,13 @@ useEffect(() => {
       }
     }   
     ,
+    muiTableProps:()=>({
+   sx:{
+    border:"1px solid #e5e7eb",
+    borderRadius:"5px !important",
+   }
+
+    }),
     //set style for input field of filter
     muiFilterTextFieldProps:()=>{
       return {
@@ -289,6 +296,9 @@ useEffect(() => {
         }
       }
     },
+    muiTablePaperProps:()=>({
+      elevation:0
+    }),
     muiColumnActionsButtonProps:()=>({
      sx:{
       color:`${theme.palette.primary.contrastText}`,
@@ -298,6 +308,7 @@ useEffect(() => {
      },
      disableRipple:true
     }),
+    
     enableBottomToolbar:false,
     enableDensityToggle:false,
     enableFullScreenToggle:false,
