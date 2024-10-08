@@ -281,7 +281,10 @@ useEffect(() => {
       return {
         sx:{
         
-         ...textFilterStyle 
+         ...textFilterStyle ,
+         '& .MuiInputBase-root':{
+          width:"80% !important",
+         }
        
         }
       }
